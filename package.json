@@ -1,0 +1,8 @@
+{
+  "name":"SC FadeCandy",
+  "author":"Jonathan Stevens",
+  "license": "TBC",
+  "dependencies":{
+     "ws":"^1.0.1"
+  }
+}

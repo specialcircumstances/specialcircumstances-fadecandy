@@ -1,0 +1,32 @@
+{
+    "id": "home.specialcircumstances.fadecandy",
+    "name": {
+        "en": "FadeCandy"
+    },
+    "version": "0.0.1",
+    "compatibility": "0.x || 1.x",
+    "author": {
+        "name": "Jonathan Stevens",
+        "email": "jonathanjstevens@gmail.com"
+    },
+    "drivers": [
+        {
+            "id": "fadecandy",
+            "name": {
+                "en": "My FadeCandy Driver",
+                "nl": "Mijn FadeCandy Driver"
+            },
+            "images": {
+                "large": "assets/drivers/my_driver/large.jpg",
+                "small": "assets/drivers/my_driver/small.jpg"
+            },
+            "class": "light",
+            "capabilities": [
+              "onoff",
+              "dim",
+              "light_hue",
+              "light_saturation"
+            ]
+        }
+    ]
+}
